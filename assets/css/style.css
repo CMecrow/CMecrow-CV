@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Quicksand&display=swap');
+
+/* Colours */
+
+.bg-color-name-title {
+    background-color: #24305E;
+}
+
+.ui-menu-color-home {
+    background-color: #F76C6C;
+}
+
+.ui-menu-color-resume {
+    background-color: #374785;
+}
+
+.ui-menu-color-contact {
+    background-color: #F8E9A1;
+}
+
+.ui-menu-color-download {
+    background-color: #A8D0E6;
+}
+
+/* Heading */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url(../images/me_logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
