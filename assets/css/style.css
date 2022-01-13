@@ -34,6 +34,26 @@ body {
     background-color: #e9ecf7;
 }
 
+#html-bar {
+    background-color: #A8D0E6;
+}
+
+#css-bar {
+    background-color: #24305E;
+}
+
+#javascript-bar {
+    background-color: #DCCE8E;
+}
+
+#python-bar {
+    background-color: #F76C6C;
+}
+
+#sql-bar {
+    background-color: #374785;
+}
+
 /* Special paddings/margins/text */
 
 h1, h2, h3, h4 {
@@ -254,4 +274,24 @@ footer {
 .personal-info-item .value {
     position: relative;
     width: 60%;
+}
+
+/* Skills */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    padding: 3px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2)
+}
+
+.progress-section {
+    margin: 40px 20px;
 }
