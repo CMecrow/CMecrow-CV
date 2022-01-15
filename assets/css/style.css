@@ -34,6 +34,10 @@ body {
     background-color: #e9ecf7;
 }
 
+.bg-color-work-history {
+    background-color: #374785;
+}
+
 #html-bar {
     background-color: #A8D0E6;
 }
@@ -84,6 +88,7 @@ h1, h2, h3, h4 {
     float: none;
 }
 
+.history-heading,
 .section-heading {
     font-family: "Montserrat", sans-serif;
     margin-top: 25px;
@@ -183,7 +188,7 @@ header {
 /* Footer */
 
 footer {
-    background-color: #565E91;
+    background-color: #A8D0E6;
     color: #fafafa;
     min-height: 120px;
 }
@@ -294,4 +299,50 @@ footer {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/* Work History */
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
