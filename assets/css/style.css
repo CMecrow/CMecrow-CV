@@ -26,6 +26,10 @@ body {
     background-color: #DCCE8E;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .ui-menu-color-download {
     background-color: #A8D0E6;
 }
@@ -188,7 +192,7 @@ header {
 /* Footer */
 
 footer {
-    background-color: #A8D0E6;
+    background-color: #A9AABC;
     color: #fafafa;
     min-height: 120px;
 }
@@ -345,4 +349,36 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/* Contact */
+
+.contact-heading {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #DCCE8E;
+}
+
+/* Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
