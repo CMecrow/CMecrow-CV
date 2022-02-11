@@ -30,6 +30,14 @@ body {
     background-color: #fff;
 }
 
+.ui-menu-color-interests {
+    background-color: #F76C6C;
+}
+
+.ui-menu-color-github {
+    background-color: #374785;
+}
+
 .ui-menu-color-download {
     background-color: #A8D0E6;
 }
@@ -372,9 +380,22 @@ button[type="submit"] {
     background-color: #DCCE8E;
 }
 
+/* Map */
+	
+div#map {	
+    min-height: 360px;	
+}
+
 /* Media Queries */
 
 @media(min-width: 992px) {
+
+    .section-column {	
+        padding: 0 30px 30px;	
+        float: none;	
+        display: table-cell;	
+    }
+
     .center-form {
         padding-top: 30px;
         min-height: 240px;
