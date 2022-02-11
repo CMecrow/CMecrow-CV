@@ -191,6 +191,10 @@ img {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
+#gh-user-data {
+  padding-top: 30px;
+}
+
 #gh-submit:hover {
   background-color: #dadada;
   background-image: -webkit-linear-gradient(#eaeaea, #dadada);
