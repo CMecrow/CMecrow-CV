@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init("user_DL6uPOYRoESAJJs4nUcsp");
+        })();
+     </script>
     <title>Chris Mecrow</title>
 </head>
 <body>
@@ -59,9 +65,9 @@
                 <h5 class="contact-second uppercase text-center">Get in touch</h5>
 
                 <div class="center-form">
-                    <form>
+                    <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                        <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email" required/>
                         <textarea rows="5" name="userinput" id="userinput" class="form-control" placeholder="Enter your text here" required></textarea>
                         <div class="text-center form-row">
                             <div class="col">
@@ -116,6 +122,7 @@
             </div>
         </div>
 
-    </footer>    
+    </footer>
+    <script src="assets/js/sendEmail.js"></script>   
 </body>
 </html>
